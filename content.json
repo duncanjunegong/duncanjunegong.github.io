@@ -1,0 +1,708 @@
+{
+  "translations": {
+    "en": {
+      "skip": "Skip to content",
+      "brandSub": "BIOINFORMATICS, PH.D.",
+      "navResearch": "Research",
+      "navPubs": "Publications",
+      "navExp": "Experience",
+      "navContact": "Contact",
+      "heroLabel": "CANCER RESEARCH · COMPUTATIONAL BIOLOGY",
+      "heroStatement": "Connecting molecular layers.<br>Understanding cancer.",
+      "heroDescription": "I integrate multi-omics data to explore tumor biology and uncover biomarkers of treatment response.",
+      "explore": "Explore my research",
+      "downloadCV": "Download CV",
+      "michigan": "University of Michigan",
+      "degreeLine": "Ph.D. in Bioinformatics · 2026",
+      "artTop": "THE MOLECULAR LANDSCAPE",
+      "artAlt": "Conceptual illustration of molecular layers converging on tumor biology. Decorative illustration, not research data.",
+      "artCaption": "Different layers. A more complete picture.",
+      "highlightLabel": "RESEARCH HIGHLIGHT",
+      "highlightTitle": "A multi-omics atlas of melanoma immunogenicity",
+      "inPress": "· In press",
+      "aboutLabel": "A LITTLE CONTEXT",
+      "aboutHeading": "From reading genomes<br>to understanding tumors.",
+      "aboutP1": "I’m a bioinformatics researcher with a Ph.D. from the University of Michigan. My work brings together genomics, transcriptomics, proteomics, post-translational modifications, and immunopeptidomics to make sense of cancer biology.",
+      "aboutP2": "My research spans CPTAC cancer studies, precision oncology platforms, machine learning, and synthetic genomics. Across these areas, I’m interested in turning complex molecular data into biologically meaningful and clinically interpretable insights.",
+      "statPubs": "Publications, including 2 in press",
+      "statSince": "Research journey began",
+      "statMentoring": "Students mentored¹",
+      "sourceNote": "Publication status reflects the October 2026 CV. ¹ Five BGI Innovation Class students mentored.",
+      "researchLabel": "RESEARCH & PROJECTS",
+      "researchHeading": "Many layers.<br>One connected question.",
+      "researchIntro": "How can we connect molecular variation to tumor behavior and therapeutic response?",
+      "toolkit": "COMPUTATIONAL TOOLKIT",
+      "skillMethods": "Machine learning · Reproducible workflows · Multi-omics integration",
+      "pubLabel": "PUBLICATIONS",
+      "pubHeading": "Ideas, in print.",
+      "searchLabel": "Search publications",
+      "searchPlaceholder": "Search publications",
+      "noResults": "No publications match this search. Try another keyword or filter.",
+      "pubFootnote": "14 publications · 2 additional manuscripts under revision<br>Journal titles and article titles are retained in their original language.",
+      "showAll": "View all publications",
+      "showLess": "Show selected publications",
+      "expLabel": "THE JOURNEY",
+      "expHeading": "Experience & education.",
+      "expIntro": "A path through computational biology, synthetic genomics, and translational cancer research.",
+      "appointments": "RESEARCH APPOINTMENTS",
+      "education": "EDUCATION",
+      "communityLabel": "BEYOND THE ANALYSIS",
+      "communityHeading": "Science grows<br>through people.",
+      "communityIntro": "Mentorship, peer review, and shared tools are part of how I contribute to the research community.",
+      "fullCV": "Full CV (Word)",
+      "contactLabel": "LET’S CONNECT",
+      "contactHeading": "Good questions start<br>with a conversation.",
+      "contactIntro": "For research conversations and collaborations in cancer proteogenomics, multi-omics, and computational biology.",
+      "copyEmail": "Copy email ↗",
+      "footerNote": "Curiosity across molecular layers.",
+      "backTop": "Back to top ↑",
+      "copied": "Email address copied.",
+      "copyFallback": "Email: jhgong@umich.edu",
+      "firstAuthor": "First author",
+      "press": "In press",
+      "revision": "Under revision",
+      "filters": {
+        "all": "All work",
+        "cancer": "Cancer & multi-omics",
+        "synthetic": "Synthetic genomics",
+        "editing": "Genome editing",
+        "other": "Other genomics"
+      }
+    },
+    "zh": {
+      "skip": "跳转至正文",
+      "brandSub": "生物信息学博士",
+      "navResearch": "研究方向",
+      "navPubs": "学术论文",
+      "navExp": "个人经历",
+      "navContact": "联系",
+      "heroLabel": "癌症研究 · 计算生物学",
+      "heroStatement": "连接多重分子层次，<br>探索肿瘤生物学。",
+      "heroDescription": "整合多组学数据，理解肿瘤生物学特征，探索与治疗响应相关的生物标志物。",
+      "explore": "了解我的研究",
+      "downloadCV": "下载简历",
+      "michigan": "密歇根大学",
+      "degreeLine": "生物信息学博士 · 2026",
+      "artTop": "分子层次的交汇",
+      "artAlt": "分子层次汇聚于肿瘤生物学的概念示意图，仅用于展示设计，不代表真实研究数据。",
+      "artCaption": "连接不同层次，构建更完整的认识。",
+      "highlightLabel": "代表性研究",
+      "highlightTitle": "解码黑色素瘤免疫原性的多组学图谱",
+      "inPress": "· 已接收，待刊",
+      "aboutLabel": "关于我",
+      "aboutHeading": "从解读基因组，<br>到理解肿瘤。",
+      "aboutP1": "我是龚剑辉（Duncan），获得密歇根大学生物信息学博士学位。我的研究整合基因组、转录组、蛋白质组、翻译后修饰与免疫肽组等数据，探索肿瘤的分子特征与生物学机制。",
+      "aboutP2": "我的工作涉及 CPTAC 癌症研究、精准肿瘤学分析平台、机器学习与合成基因组学。我关注如何将复杂的分子数据转化为具有生物学意义、便于临床解读的研究洞见。",
+      "statPubs": "篇论文，含 2 篇已接收待刊",
+      "statSince": "开始生物信息学研究",
+      "statMentoring": "位受指导学生¹",
+      "sourceNote": "论文状态依据 2026 年 10 月版 CV。¹ 指导过 5 位华大创新班学生。",
+      "researchLabel": "研究方向与项目",
+      "researchHeading": "多重分子层次，<br>相互连接的科学问题。",
+      "researchIntro": "如何将分子层面的变异与肿瘤行为、治疗响应联系起来？",
+      "toolkit": "计算与分析工具",
+      "skillMethods": "机器学习 · 可复现工作流程 · 多组学整合",
+      "pubLabel": "学术论文",
+      "pubHeading": "以研究，回应问题。",
+      "searchLabel": "搜索学术论文",
+      "searchPlaceholder": "搜索论文标题、期刊、年份",
+      "noResults": "未找到符合条件的论文，请尝试其他关键词或筛选条件。",
+      "pubFootnote": "14 篇论文 · 另有 2 篇修回中的稿件<br>论文及期刊名称保留英文原文。",
+      "showAll": "查看全部论文",
+      "showLess": "收起为代表论文",
+      "expLabel": "个人经历",
+      "expHeading": "科研与教育经历。",
+      "expIntro": "跨越计算生物学、合成基因组学与癌症转化研究的探索历程。",
+      "appointments": "科研与工作经历",
+      "education": "教育经历",
+      "communityLabel": "研究之外",
+      "communityHeading": "科学的成长，<br>源于彼此连接。",
+      "communityIntro": "通过学生指导、同行评审与工具开发，参与科研共同体的建设。",
+      "fullCV": "完整简历（Word）",
+      "contactLabel": "保持联系",
+      "contactHeading": "让好的问题，<br>从一次交流开始。",
+      "contactIntro": "欢迎围绕癌症蛋白基因组学、多组学整合与计算生物学进行学术交流与合作。",
+      "copyEmail": "复制邮箱 ↗",
+      "footerNote": "在分子层次间保持好奇。",
+      "backTop": "返回顶部 ↑",
+      "copied": "邮箱地址已复制。",
+      "copyFallback": "邮箱：jhgong@umich.edu",
+      "firstAuthor": "第一作者",
+      "press": "已接收，待刊",
+      "revision": "修回中",
+      "filters": {
+        "all": "全部研究",
+        "cancer": "癌症与多组学",
+        "synthetic": "合成基因组学",
+        "editing": "基因编辑",
+        "other": "其他基因组学"
+      }
+    }
+  },
+  "publications": [
+    {
+      "year": "In press",
+      "journal": "Cancer Discovery",
+      "status": "press",
+      "first": true,
+      "category": "cancer",
+      "title": "A comprehensive proteogenomic, immunopeptidomic, and metabolomic atlas decodes immunogenicity in cutaneous melanoma.",
+      "authors": "Gong J, Petralia F, Ruiz Cuevas MV, Tignor N, Jain R, et al.",
+      "id": "gong-melanoma-atlas",
+      "authorsFull": "Gong J, Petralia F, Ruiz Cuevas MV, Tignor N, Jain R, Gritsenko MA, Kitata RB, Ma W, Hsiao Y, Deng Y, et al."
+    },
+    {
+      "year": "In press",
+      "journal": "Clinical Cancer Research",
+      "status": "press",
+      "category": "cancer",
+      "title": "Identification of Proteomic Subtypes with Differential Responses to Immune Checkpoint Inhibition in Melanoma.",
+      "authors": "Chowdhury S, Abdollahi K, Petralia F, Kennedy JJ, Gong J, et al.",
+      "id": "chowdhury-melanoma-subtypes",
+      "authorsFull": "Chowdhury S, Abdollahi K, Petralia F, Kennedy JJ, Gong J, Ma W, Ivey RG, Pletcher RC, Krek A, Moshiri AS, et al."
+    },
+    {
+      "year": "2026",
+      "journal": "PNAS",
+      "category": "cancer",
+      "title": "STAG2 loss amplifies EWS-FLI1-driven microsatellite enhancer activity promoting Ewing sarcoma aggressiveness.",
+      "authors": "Eyunni S, Chu SC, Guan ML, Louw M, Young E, Carson SE, Gong J, et al.",
+      "doi": "10.1073/pnas.2537425123",
+      "id": "eyunni-2026-stag2",
+      "authorsFull": "Eyunni S, Chu SC, Guan ML, Louw M, Young E, Carson SE, Gong J, Cieslik M, Chinnaiyan AM, Parolia A."
+    },
+    {
+      "year": "2026",
+      "journal": "Cancer Discovery",
+      "category": "cancer",
+      "title": "Recurrent Immunogenic Neoantigens and Their Cognate T-cell Receptors in Treatment-Resistant Metastatic Prostate Cancer.",
+      "authors": "Gumpert N, Sagie S, Arnedo-Pac C, et al. (including Gong J)",
+      "doi": "10.1158/2159-8290.CD-24-1213",
+      "id": "gumpert-2026-neoantigens",
+      "authorsFull": "Gumpert N, Sagie S, Arnedo-Pac C, Babu T, Weller C, Gonzalez-Perez A, Wang Y, Michel Todó L, Levy R, Chen X, Greenberg P, Dayan-Rubinov M, Yakubovich E, Wasserman-Bartov T, Zerbib M, Gong J, Rebernick RJ, Oliveira Tercero A, Agundez Muriel L, Benedek G, Kedmi M, Oren R, Ben-Dor S, Levin Y, Troyanskaya OG, Munzur AD, Wyatt AW, Cieslik MP, Quigley DA, Van Allen EM, Anandasabapathy N, Mateo J, Yang X, Martínez-Jiménez F, Lopez-Bigas N, Samuels Y."
+    },
+    {
+      "year": "2023",
+      "journal": "Cell Genomics",
+      "category": "synthetic",
+      "title": "Dissecting aneuploidy phenotypes by constructing Sc2.0 chromosome VII and SCRaMbLEing synthetic disomic yeast.",
+      "authors": "Shen Y, Gao F, Wang Y, Wang Y, Zheng J, Gong J, et al.",
+      "doi": "10.1016/j.xgen.2023.100364",
+      "id": "shen-2023-sc20",
+      "authorsFull": "Shen Y, Gao F, Wang Y, Wang Y, Zheng J, Gong J, Zhang J, Luo Z, Schindler D, Deng Y, Ding W, Lin T, Swidah R, Zhao H, Jiang S, Zeng C, Chen S, Chen T, Wang Y, Luo Y, Mitchell L, Bader JS, Zhang G, Shen X, Wang J, Fu X, Dai J, Boeke JD, Yang H, Xu X, Cai Y."
+    },
+    {
+      "year": "2023",
+      "journal": "Nature Communications",
+      "category": "editing",
+      "title": "Limitations of gene editing assessments in human preimplantation embryos.",
+      "authors": "Liang D, Mikhalchenko A, Ma H, et al. (including Gong J)",
+      "doi": "10.1038/s41467-023-36820-6",
+      "id": "liang-2023-editing",
+      "authorsFull": "Liang D, Mikhalchenko A, Ma H, Marti Gutierrez N, Chen T, Lee Y, Park SW, Tippner-Hedges R, Koski A, Darby H, Li Y, Van Dyken C, Zhao H, Wu K, Zhang J, Hou Z, So S, Han J, Park J, Kim CJ, Zong K, Gong J, Yuan Y, Gu Y, Shen Y, Olson SB, Yang H, Battaglia D, O'Leary T, Krieg SA, Lee DM, Wu DH, Duell PB, Kaul S, Kim JS, Heitner SB, Kang E, Chen ZJ, Amato P, Mitalipov S."
+    },
+    {
+      "year": "2019",
+      "journal": "Cell Research",
+      "category": "editing",
+      "title": "Precise in vivo genome editing via single homology arm donor mediated intron-targeting gene integration for genetic disease correction.",
+      "authors": "Suzuki K, Yamamoto M, Hernandez-Benitez R, et al. (including Gong J)",
+      "doi": "10.1038/s41422-019-0213-0",
+      "id": "suzuki-2019-sati",
+      "authorsFull": "Suzuki K, Yamamoto M, Hernandez-Benitez R, Li Z, Wei C, Soligalla RD, Aizawa E, Hatanaka F, Kurita M, Reddy P, Ocampo A, Hishida T, Sakurai M, Nemeth AN, Nuñez Delicado E, Campistol JM, Magistretti P, Guillen P, Rodriguez Esteban C, Gong J, Yuan Y, Gu Y, Liu GH, López-Otín C, Wu J, Zhang K, Izpisua Belmonte JC."
+    },
+    {
+      "year": "2018",
+      "journal": "Nature",
+      "category": "editing",
+      "title": "Ma et al. reply.",
+      "authors": "Ma H, Marti-Gutierrez N, Park SW, et al. (including Gong J)",
+      "doi": "10.1038/s41586-018-0381-y",
+      "id": "ma-2018-reply",
+      "authorsFull": "Ma H, Marti-Gutierrez N, Park SW, Wu J, Hayama T, Darby H, Van Dyken C, Li Y, Koski A, Liang D, Suzuki K, Gu Y, Gong J, Xu X, Ahmed R, Lee Y, Kang E, Ji D, Park AR, Kim D, Kim ST, Heitner SB, Battaglia D, Krieg SA, Lee DM, Wu DH, Wolf DP, Amato P, Kaul S, Belmonte JCI, Kim JS, Mitalipov S."
+    },
+    {
+      "year": "2017",
+      "journal": "Nature",
+      "category": "editing",
+      "title": "Correction of a pathogenic gene mutation in human embryos.",
+      "authors": "Ma H, Marti-Gutierrez N, Park SW, et al. (including Gong J)",
+      "doi": "10.1038/nature23305",
+      "id": "ma-2017-embryos",
+      "authorsFull": "Ma H, Marti-Gutierrez N, Park SW, Wu J, Lee Y, Suzuki K, Koski A, Ji D, Hayama T, Ahmed R, Darby H, Van Dyken C, Li Y, Kang E, Park AR, Kim D, Kim ST, Gong J, Gu Y, Xu X, Battaglia D, Krieg SA, Lee DM, Wu DH, Wolf DP, Heitner SB, Belmonte JCI, Amato P, Kim JS, Kaul S, Mitalipov S."
+    },
+    {
+      "year": "2017",
+      "journal": "G3",
+      "category": "other",
+      "title": "Dissecting Nucleosome Function with a Comprehensive Histone H2A and H2B Mutant Library.",
+      "authors": "Jiang S, Liu Y, Xu C, Wang Y, Gong J, et al.",
+      "doi": "10.1534/g3.117.300252",
+      "id": "jiang-2017-histone",
+      "authorsFull": "Jiang S, Liu Y, Xu C, Wang Y, Gong J, Shen Y, Wu Q, Boeke JD, Dai J."
+    },
+    {
+      "year": "2017",
+      "journal": "Science",
+      "category": "synthetic",
+      "title": "Engineering the ribosomal DNA in a megabase synthetic chromosome.",
+      "authors": "Zhang W, Zhao G, Luo Z, et al. (including Gong J)",
+      "doi": "10.1126/science.aaf3981",
+      "id": "zhang-2017-rdna",
+      "authorsFull": "Zhang W, Zhao G, Luo Z, Lin Y, Wang L, Guo Y, Wang A, Jiang S, Jiang Q, Gong J, Wang Y, Hou S, Huang J, Li T, Qin Y, Dong J, Qin Q, Zhang J, Zou X, He X, Zhao L, Xiao Y, Xu M, Cheng E, Huang N, Zhou T, Shen Y, Walker R, Luo Y, Kuang Z, Mitchell LA, Yang K, Richardson SM, Wu Y, Li BZ, Yuan YJ, Yang H, Lin J, Chen GQ, Wu Q, Bader JS, Cai Y, Boeke JD, Dai J."
+    },
+    {
+      "year": "2017",
+      "journal": "Science",
+      "category": "synthetic",
+      "title": "Deep functional analysis of synII, a 770-kilobase synthetic yeast chromosome.",
+      "authors": "Shen Y, Wang Y, Chen T, Gao F, Gong J, et al.",
+      "doi": "10.1126/science.aaf4791",
+      "id": "shen-2017-synii",
+      "authorsFull": "Shen Y, Wang Y, Chen T, Gao F, Gong J, Abramczyk D, Walker R, Zhao H, Chen S, Liu W, Luo Y, Müller CA, Paul-Dubois-Taine A, Alver B, Stracquadanio G, Mitchell LA, Luo Z, Fan Y, Zhou B, Wen B, Tan F, Wang Y, Zi J, Xie Z, Li B, Yang K, Richardson SM, Jiang H, French CE, Nieduszynski CA, Koszul R, Marston AL, Yuan Y, Wang J, Bader JS, Dai J, Boeke JD, Xu X, Cai Y, Yang H."
+    },
+    {
+      "year": "2016",
+      "journal": "Genome Research",
+      "category": "synthetic",
+      "title": "SCRaMbLE generates designed combinatorial stochastic diversity in synthetic chromosomes.",
+      "authors": "Shen Y, Stracquadanio G, Wang Y, et al. (including Gong J)",
+      "doi": "10.1101/gr.193433.115",
+      "id": "shen-2016-scramble",
+      "authorsFull": "Shen Y, Stracquadanio G, Wang Y, Yang K, Mitchell LA, Xue Y, Cai Y, Chen T, Dymond JS, Kang K, Gong J, Zeng X, Zhang Y, Li Y, Feng Q, Xu X, Wang J, Wang J, Yang H, Boeke JD, Bader JS."
+    },
+    {
+      "year": "2015",
+      "journal": "Scientific Reports",
+      "category": "other",
+      "title": "Auxenochlorella protothecoides and Prototheca wickerhamii plastid genome sequences give insight into the origins of non-photosynthetic algae.",
+      "authors": "Yan D, Wang Y, Murakami T, Shen Y, Gong J, et al.",
+      "doi": "10.1038/srep14465",
+      "id": "yan-2015-plastid",
+      "authorsFull": "Yan D, Wang Y, Murakami T, Shen Y, Gong J, Jiang H, Smith DR, Pombert JF, Dai J, Wu Q."
+    },
+    {
+      "year": "Under revision",
+      "journal": "Cancer Cell",
+      "status": "revision",
+      "category": "cancer",
+      "title": "Multi-omic interrogation of soft tissue sarcoma reveals therapeutically relevant molecular subtypes.",
+      "authors": "Wang C, Clark NM, Jaehnig EJ, et al.; Clinical Proteomic Tumor Analysis Consortium (CPTAC).",
+      "id": "wang-sarcoma-revision",
+      "authorsFull": "Wang C, Clark NM, Jaehnig EJ, et al.; Clinical Proteomic Tumor Analysis Consortium (CPTAC)."
+    },
+    {
+      "year": "Under revision",
+      "journal": "Clinical Cancer Research",
+      "status": "revision",
+      "category": "cancer",
+      "title": "Comprehensive proteogenomic characterization of DNA damage response (DDR) across human tumors spanning ten cancer types.",
+      "authors": "Jaehnig E, Huynh AT, Kaparos E, et al.; Clinical Proteomic Tumor Analysis Consortium (CPTAC).",
+      "id": "jaehnig-ddr-revision",
+      "authorsFull": "Jaehnig E, Huynh AT, Kaparos E, et al.; Clinical Proteomic Tumor Analysis Consortium (CPTAC)."
+    }
+  ],
+  "projects": [
+    {
+      "title": [
+        "Cancer proteogenomics",
+        "癌症蛋白基因组学"
+      ],
+      "description": [
+        "Led integrative analyses of CPTAC melanoma data, connecting genomic, proteomic, PTM, immune, and clinical features to tumor biology and immunogenicity.",
+        "主导 CPTAC 黑色素瘤数据的整合分析，连接基因组、蛋白质组、翻译后修饰、免疫与临床特征，探索肿瘤生物学及免疫原性。"
+      ],
+      "tags": [
+        "CPTAC",
+        "Melanoma",
+        "Multi-omics"
+      ]
+    },
+    {
+      "title": [
+        "Precision oncology",
+        "精准肿瘤学"
+      ],
+      "description": [
+        "Contributed to the Turn-key Precision Oncology (TPO) platform, supporting reproducible tumor profiling across mutations, copy-number changes, gene expression, and fusions.",
+        "参与 Turn-key Precision Oncology（TPO）平台开发，支持体细胞突变、拷贝数变异、基因表达与融合等可复现的肿瘤特征分析。"
+      ],
+      "tags": [
+        "TPO",
+        "Tumor profiling",
+        "Workflows"
+      ]
+    },
+    {
+      "title": [
+        "Machine learning for health",
+        "面向健康的机器学习"
+      ],
+      "description": [
+        "Built models for cfDNA-based critical illness classification, single-cell-based gestational age prediction, and HPV integration status prediction.",
+        "构建基于 cfDNA 的危重症分类模型、基于单细胞数据的孕周预测模型，以及 HPV 整合状态预测模型。"
+      ],
+      "tags": [
+        "cfDNA",
+        "Single-cell RNA-seq",
+        "HPV"
+      ]
+    },
+    {
+      "title": [
+        "Synthetic genomics",
+        "合成基因组学"
+      ],
+      "description": [
+        "Contributed to Sc2.0 studies through synthetic chromosome validation and multi-omics analyses of genome design, fitness, and rearrangement.",
+        "参与 Sc2.0 合成酵母基因组研究，开展合成染色体验证与多组学分析，评估基因组设计、适应性及基因组重排。"
+      ],
+      "tags": [
+        "Sc2.0",
+        "SCRaMbLE",
+        "Genome design"
+      ]
+    },
+    {
+      "title": [
+        "Genome editing analysis",
+        "基因编辑计算分析"
+      ],
+      "description": [
+        "Analyzed CRISPR/Cas9 off-target variants and SATI-mediated gene correction, including editing efficiency and large-deletion events.",
+        "分析 CRISPR/Cas9 潜在脱靶变异及 SATI 介导的基因校正，包括编辑效率与大片段缺失事件。"
+      ],
+      "tags": [
+        "CRISPR/Cas9",
+        "WES",
+        "SATI"
+      ]
+    },
+    {
+      "title": [
+        "Research software & platforms",
+        "科研软件与平台"
+      ],
+      "description": [
+        "Designed RiSE for laboratory resources, built TMS for synthesis workflows, and contributed to Genovo for computer-aided genome design.",
+        "设计实验资源管理系统 RiSE，开发合成制造任务管理系统 TMS，并参与基因组计算机辅助设计平台 Genovo 的开发。"
+      ],
+      "tags": [
+        "RiSE",
+        "TMS",
+        "Genovo"
+      ]
+    }
+  ],
+  "appointments": [
+    {
+      "date": [
+        "2022.06 — Present",
+        "2022.06 — 至今"
+      ],
+      "title": [
+        "Research Assistant",
+        "研究助理"
+      ],
+      "org": [
+        "MCTP · University of Michigan Medical School",
+        "MCTP · 密歇根大学医学院"
+      ],
+      "detail": [
+        "Cancer proteogenomics, CPTAC melanoma analyses, and the TPO platform. Research mentor: Marcin Cieslik.",
+        "开展癌症蛋白基因组学研究、CPTAC 黑色素瘤分析及 TPO 平台开发。导师：Marcin Cieslik。"
+      ]
+    },
+    {
+      "date": [
+        "2021.01 — 2021.07",
+        "2021.01 — 2021.07"
+      ],
+      "title": [
+        "Associate Research Scientist",
+        "副研究员"
+      ],
+      "org": [
+        "BGI Research",
+        "华大生命科学研究院"
+      ],
+      "detail": [
+        "Machine learning for precision health, cfDNA classification, and single-cell data modeling.",
+        "开展精准健康机器学习研究，包括 cfDNA 分类与单细胞数据建模。"
+      ]
+    },
+    {
+      "date": [
+        "2019.01 — 2020.12",
+        "2019.01 — 2020.12"
+      ],
+      "title": [
+        "Head of Technology Optimization Team",
+        "技术优化团队负责人"
+      ],
+      "org": [
+        "China National GeneBank",
+        "国家基因库"
+      ],
+      "detail": [
+        "Led a computational team supporting synthetic genomics, software development, and multi-omics workflows.",
+        "带领计算与技术优化团队，支持合成基因组学、软件开发与多组学研究工作流程。"
+      ]
+    },
+    {
+      "date": [
+        "2013.07 — 2018.12",
+        "2013.07 — 2018.12"
+      ],
+      "title": [
+        "Bioinformatics Analyst → Associate Research Scientist",
+        "生物信息分析师 → 副研究员"
+      ],
+      "org": [
+        "BGI Research",
+        "华大生命科学研究院"
+      ],
+      "detail": [
+        "Progressed through analyst, assistant scientist, and associate scientist roles in synthetic genomics, genome editing, and comparative genomics.",
+        "先后担任分析师、助理研究员与副研究员，参与合成基因组学、基因编辑及比较基因组学研究。"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "date": [
+        "2021.08 — 2026.08",
+        "2021.08 — 2026.08"
+      ],
+      "title": [
+        "Ph.D. in Bioinformatics",
+        "生物信息学博士"
+      ],
+      "org": [
+        "University of Michigan",
+        "密歇根大学"
+      ]
+    },
+    {
+      "date": [
+        "2022.08 — 2025.12",
+        "2022.08 — 2025.12"
+      ],
+      "title": [
+        "M.S. in Computer Science",
+        "计算机科学硕士"
+      ],
+      "org": [
+        "Georgia Institute of Technology",
+        "佐治亚理工学院"
+      ]
+    },
+    {
+      "date": [
+        "2021.08 — 2023.04",
+        "2021.08 — 2023.04"
+      ],
+      "title": [
+        "M.S. in Bioinformatics",
+        "生物信息学硕士"
+      ],
+      "org": [
+        "University of Michigan",
+        "密歇根大学"
+      ]
+    },
+    {
+      "date": [
+        "2009.09 — 2013.07",
+        "2009.09 — 2013.07"
+      ],
+      "title": [
+        "B.Eng. in Bioengineering",
+        "生物工程学士"
+      ],
+      "org": [
+        "South China University of Technology",
+        "华南理工大学"
+      ]
+    }
+  ],
+  "community": [
+    {
+      "symbol": "↗",
+      "title": [
+        "Mentorship",
+        "学生指导"
+      ],
+      "detail": [
+        "Mentored five BGI Innovation Class students during 1.5-year research training in bioinformatics, synthetic genomics, and scientific communication.",
+        "在为期一年半的科研训练中，指导 5 位华大创新班学生开展生物信息学、合成基因组学研究与学术交流。"
+      ]
+    },
+    {
+      "symbol": "✳",
+      "title": [
+        "Editorial & peer review service",
+        "编辑与同行评审"
+      ],
+      "detail": [
+        "Guest Editor, PNAS Nexus. Reviewer for Briefings in Bioinformatics, eLife, JCO Precision Oncology, iScience, PLOS Genetics, Heliyon, and PLOS ONE.",
+        "担任 PNAS Nexus 客座编辑；为 Briefings in Bioinformatics、eLife、JCO Precision Oncology、iScience、PLOS Genetics、Heliyon 和 PLOS ONE 审稿。"
+      ]
+    },
+    {
+      "symbol": "⌘",
+      "title": [
+        "Tools & intellectual contributions",
+        "软件与知识成果"
+      ],
+      "detail": [
+        "Four software copyrights, one granted patent, and a contribution to the national standard for quality evaluation of synthesized genes (GB/T 37873-2019).",
+        "拥有 4 项软件著作权、1 项授权专利，并参与《合成基因质量评价通则》国家标准（GB/T 37873-2019）的制定。"
+      ]
+    },
+    {
+      "symbol": "◇",
+      "title": [
+        "Honors & scientific exchange",
+        "荣誉与学术交流"
+      ],
+      "detail": [
+        "PIBS, Tucker Fund, and Bernard Maas fellowships at Michigan; Sc2.0 poster award; presentations including AACR 2025 and scientific investigator meetings.",
+        "获得密歇根大学 PIBS、Tucker Fund 和 Bernard Maas 资助及 Sc2.0 海报奖；参与 AACR 2025 及科学研究者会议等学术交流。"
+      ]
+    }
+  ],
+  "updated": "2026-10-28",
+  "profile": {
+    "name": "Jianhui (Duncan) Gong",
+    "chineseName": "龚剑辉",
+    "email": "jhgong@umich.edu",
+    "role": [
+      "Research Assistant",
+      "研究助理"
+    ],
+    "institution": [
+      "University of Michigan Medical School",
+      "密歇根大学医学院"
+    ],
+    "center": [
+      "Michigan Center for Translational Pathology (MCTP)",
+      "密歇根转化病理学中心（MCTP）"
+    ],
+    "mentor": "Marcin Cieslik",
+    "scholar": "https://scholar.google.com/citations?user=H1VLKlQAAAAJ&hl=en",
+    "orcid": "https://orcid.org/0000-0002-3910-9260"
+  },
+  "featured": [
+    {
+      "number": "01",
+      "title": [
+        "CPTAC melanoma atlas",
+        "CPTAC 黑色素瘤图谱"
+      ],
+      "field": [
+        "Cancer proteogenomics",
+        "癌症蛋白基因组学"
+      ],
+      "question": [
+        "How do molecular layers connect to melanoma immunogenicity?",
+        "不同分子层次如何与黑色素瘤的免疫原性相联系？"
+      ],
+      "contribution": [
+        "Led integrative analyses connecting genomic, transcriptomic, proteomic, PTM, immunopeptidomic, and clinical features.",
+        "主导整合基因组、转录组、蛋白质组、翻译后修饰、免疫肽组及临床特征的计算分析。"
+      ],
+      "outcome": [
+        "Contributed to a comprehensive molecular atlas of cutaneous melanoma. First-author paper in press at Cancer Discovery.",
+        "参与构建皮肤黑色素瘤的综合分子图谱。第一作者论文已被 Cancer Discovery 接收待刊。"
+      ],
+      "links": [
+        {
+          "id": "gong-melanoma-atlas",
+          "label": [
+            "First-author paper",
+            "第一作者论文"
+          ]
+        }
+      ],
+      "tags": [
+        "CPTAC",
+        "Melanoma",
+        "Immunopeptidomics"
+      ]
+    },
+    {
+      "number": "02",
+      "title": [
+        "Turn-key Precision Oncology",
+        "Turn-key Precision Oncology"
+      ],
+      "field": [
+        "Computational platform development",
+        "计算分析平台开发"
+      ],
+      "question": [
+        "How can diverse tumor alterations become interpretable molecular profiles?",
+        "如何将多种肿瘤分子变异组织为便于解读的分析结果？"
+      ],
+      "contribution": [
+        "Designed and implemented components for data organization and output storage across mutations, copy-number changes, structural variants, expression, and gene fusions.",
+        "设计和实现数据组织与结果存储组件，支持突变、拷贝数变异、结构变异、基因表达及融合等分析结果的管理。"
+      ],
+      "outcome": [
+        "Supported scalable, reproducible, and clinically interpretable tumor profiling through contributions to the TPO platform.",
+        "通过参与 TPO 平台开发，支持可扩展、可复现且便于临床解读的肿瘤分子特征分析。"
+      ],
+      "links": [],
+      "tags": [
+        "TPO",
+        "Tumor profiling",
+        "Reproducible workflows"
+      ]
+    },
+    {
+      "number": "03",
+      "title": [
+        "The Synthetic Yeast Genome Project",
+        "合成酵母基因组计划"
+      ],
+      "field": [
+        "Synthetic & functional genomics",
+        "合成与功能基因组学"
+      ],
+      "question": [
+        "How does rewriting a genome change cellular function?",
+        "改写基因组会如何影响细胞功能？"
+      ],
+      "contribution": [
+        "Performed sequence validation and multi-omics analyses for Sc2.0 studies, including synthetic chromosomes II, XII, and XIII.",
+        "在 Sc2.0 研究中开展序列验证及多组学分析，包括合成染色体 II、XII 和 XIII。"
+      ],
+      "outcome": [
+        "Contributed to studies of synthetic chromosome function, genome design-associated fitness defects, and aneuploidy-related phenotypes.",
+        "参与研究合成染色体功能、基因组设计相关适应性缺陷及非整倍性相关表型。"
+      ],
+      "links": [
+        {
+          "id": "shen-2017-synii",
+          "label": [
+            "Science · synII",
+            "Science · synII"
+          ]
+        },
+        {
+          "id": "shen-2023-sc20",
+          "label": [
+            "Cell Genomics · 2023",
+            "Cell Genomics · 2023"
+          ]
+        }
+      ],
+      "tags": [
+        "Sc2.0",
+        "SCRaMbLE",
+        "Multi-omics"
+      ]
+    }
+  ]
+}

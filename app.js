@@ -1,110 +1,34 @@
-const translations={
-en:{skip:'Skip to content',brandSub:'BIOINFORMATICS, PH.D.',navResearch:'Research',navPubs:'Publications',navExp:'Experience',navContact:'Contact',heroLabel:'CANCER RESEARCH · COMPUTATIONAL BIOLOGY',heroStatement:'Connecting molecular layers.<br>Understanding cancer.',heroDescription:'I integrate multi-omics data to explore tumor biology and uncover biomarkers of treatment response.',explore:'Explore my research',downloadCV:'Download CV',michigan:'University of Michigan',degreeLine:'Ph.D. in Bioinformatics · 2026',artTop:'THE MOLECULAR LANDSCAPE',artAlt:'Conceptual illustration of molecular layers converging on tumor biology. Decorative illustration, not research data.',artCaption:'Different layers. A more complete picture.',highlightLabel:'RESEARCH HIGHLIGHT',highlightTitle:'A multi-omics atlas of melanoma immunogenicity',inPress:'· In press',aboutLabel:'A LITTLE CONTEXT',aboutHeading:'From reading genomes<br>to understanding tumors.',aboutP1:'I’m a bioinformatics researcher with a Ph.D. from the University of Michigan. My work brings together genomics, transcriptomics, proteomics, post-translational modifications, and immunopeptidomics to make sense of cancer biology.',aboutP2:'My research spans CPTAC cancer studies, precision oncology platforms, machine learning, and synthetic genomics. Across these areas, I’m interested in turning complex molecular data into biologically meaningful and clinically interpretable insights.',statPubs:'Publications, including 2 in press',statSince:'Research journey began',statMentoring:'Students mentored¹',sourceNote:'Publication status reflects the October 2026 CV. ¹ Five BGI Innovation Class students mentored.',researchLabel:'RESEARCH & PROJECTS',researchHeading:'Many layers.<br>One connected question.',researchIntro:'How can we connect molecular variation to tumor behavior and therapeutic response?',toolkit:'COMPUTATIONAL TOOLKIT',skillMethods:'Machine learning · Reproducible workflows · Multi-omics integration',pubLabel:'PUBLICATIONS',pubHeading:'Ideas, in print.',searchLabel:'Search publications',searchPlaceholder:'Search publications',noResults:'No publications match this search. Try another keyword or filter.',pubFootnote:'14 publications · 2 additional manuscripts under revision<br>Journal titles and article titles are retained in their original language.',showAll:'View all publications',showLess:'Show selected publications',expLabel:'THE JOURNEY',expHeading:'Experience & education.',expIntro:'A path through computational biology, synthetic genomics, and translational cancer research.',appointments:'RESEARCH APPOINTMENTS',education:'EDUCATION',communityLabel:'BEYOND THE ANALYSIS',communityHeading:'Science grows<br>through people.',communityIntro:'Mentorship, peer review, and shared tools are part of how I contribute to the research community.',fullCV:'Full CV (Word)',contactLabel:'LET’S CONNECT',contactHeading:'Good questions start<br>with a conversation.',contactIntro:'For research conversations and collaborations in cancer proteogenomics, multi-omics, and computational biology.',copyEmail:'Copy email ↗',footerNote:'Curiosity across molecular layers.',backTop:'Back to top ↑',copied:'Email address copied.',copyFallback:'Email: jhgong@umich.edu',firstAuthor:'First author',press:'In press',revision:'Under revision',results:(visible,total)=>`${visible} of ${total} articles`,filters:{all:'All work',cancer:'Cancer & multi-omics',synthetic:'Synthetic genomics',editing:'Genome editing',other:'Other genomics'}},
-zh:{skip:'跳转至正文',brandSub:'生物信息学博士',navResearch:'研究方向',navPubs:'学术论文',navExp:'个人经历',navContact:'联系',heroLabel:'癌症研究 · 计算生物学',heroStatement:'连接多重分子层次，<br>探索肿瘤生物学。',heroDescription:'整合多组学数据，理解肿瘤生物学特征，探索与治疗响应相关的生物标志物。',explore:'了解我的研究',downloadCV:'下载简历',michigan:'密歇根大学',degreeLine:'生物信息学博士 · 2026',artTop:'分子层次的交汇',artAlt:'分子层次汇聚于肿瘤生物学的概念示意图，仅用于展示设计，不代表真实研究数据。',artCaption:'连接不同层次，构建更完整的认识。',highlightLabel:'代表性研究',highlightTitle:'解码黑色素瘤免疫原性的多组学图谱',inPress:'· 已接收，待刊',aboutLabel:'关于我',aboutHeading:'从解读基因组，<br>到理解肿瘤。',aboutP1:'我是龚剑辉（Duncan），获得密歇根大学生物信息学博士学位。我的研究整合基因组、转录组、蛋白质组、翻译后修饰与免疫肽组等数据，探索肿瘤的分子特征与生物学机制。',aboutP2:'我的工作涉及 CPTAC 癌症研究、精准肿瘤学分析平台、机器学习与合成基因组学。我关注如何将复杂的分子数据转化为具有生物学意义、便于临床解读的研究洞见。',statPubs:'篇论文，含 2 篇已接收待刊',statSince:'开始生物信息学研究',statMentoring:'位受指导学生¹',sourceNote:'论文状态依据 2026 年 10 月版 CV。¹ 指导过 5 位华大创新班学生。',researchLabel:'研究方向与项目',researchHeading:'多重分子层次，<br>相互连接的科学问题。',researchIntro:'如何将分子层面的变异与肿瘤行为、治疗响应联系起来？',toolkit:'计算与分析工具',skillMethods:'机器学习 · 可复现工作流程 · 多组学整合',pubLabel:'学术论文',pubHeading:'以研究，回应问题。',searchLabel:'搜索学术论文',searchPlaceholder:'搜索论文标题、期刊、年份',noResults:'未找到符合条件的论文，请尝试其他关键词或筛选条件。',pubFootnote:'14 篇论文 · 另有 2 篇修回中的稿件<br>论文及期刊名称保留英文原文。',showAll:'查看全部论文',showLess:'收起为代表论文',expLabel:'个人经历',expHeading:'科研与教育经历。',expIntro:'跨越计算生物学、合成基因组学与癌症转化研究的探索历程。',appointments:'科研与工作经历',education:'教育经历',communityLabel:'研究之外',communityHeading:'科学的成长，<br>源于彼此连接。',communityIntro:'通过学生指导、同行评审与工具开发，参与科研共同体的建设。',fullCV:'完整简历（Word）',contactLabel:'保持联系',contactHeading:'让好的问题，<br>从一次交流开始。',contactIntro:'欢迎围绕癌症蛋白基因组学、多组学整合与计算生物学进行学术交流与合作。',copyEmail:'复制邮箱 ↗',footerNote:'在分子层次间保持好奇。',backTop:'返回顶部 ↑',copied:'邮箱地址已复制。',copyFallback:'邮箱：jhgong@umich.edu',firstAuthor:'第一作者',press:'已接收，待刊',revision:'修回中',results:(visible,total)=>`显示 ${visible} / ${total} 篇`,filters:{all:'全部研究',cancer:'癌症与多组学',synthetic:'合成基因组学',editing:'基因编辑',other:'其他基因组学'}}};
-
-const publications=[
-{year:'In press',journal:'Cancer Discovery',status:'press',first:true,category:'cancer',title:'A comprehensive proteogenomic, immunopeptidomic, and metabolomic atlas decodes immunogenicity in cutaneous melanoma.',authors:'Gong J, Petralia F, Ruiz Cuevas MV, Tignor N, Jain R, et al.'},
-{year:'In press',journal:'Clinical Cancer Research',status:'press',category:'cancer',title:'Identification of Proteomic Subtypes with Differential Responses to Immune Checkpoint Inhibition in Melanoma.',authors:'Chowdhury S, Abdollahi K, Petralia F, Kennedy JJ, Gong J, et al.'},
-{year:'2026',journal:'PNAS',category:'cancer',title:'STAG2 loss amplifies EWS-FLI1-driven microsatellite enhancer activity promoting Ewing sarcoma aggressiveness.',authors:'Eyunni S, Chu SC, Guan ML, Louw M, Young E, Carson SE, Gong J, et al.',doi:'10.1073/pnas.2537425123'},
-{year:'2026',journal:'Cancer Discovery',category:'cancer',title:'Recurrent Immunogenic Neoantigens and Their Cognate T-cell Receptors in Treatment-Resistant Metastatic Prostate Cancer.',authors:'Gumpert N, Sagie S, Arnedo-Pac C, et al. (including Gong J)',doi:'10.1158/2159-8290.CD-24-1213'},
-{year:'2023',journal:'Cell Genomics',category:'synthetic',title:'Dissecting aneuploidy phenotypes by constructing Sc2.0 chromosome VII and SCRaMbLEing synthetic disomic yeast.',authors:'Shen Y, Gao F, Wang Y, Wang Y, Zheng J, Gong J, et al.',doi:'10.1016/j.xgen.2023.100364'},
-{year:'2023',journal:'Nature Communications',category:'editing',title:'Limitations of gene editing assessments in human preimplantation embryos.',authors:'Liang D, Mikhalchenko A, Ma H, et al. (including Gong J)',doi:'10.1038/s41467-023-36820-6'},
-{year:'2019',journal:'Cell Research',category:'editing',title:'Precise in vivo genome editing via single homology arm donor mediated intron-targeting gene integration for genetic disease correction.',authors:'Suzuki K, Yamamoto M, Hernandez-Benitez R, et al. (including Gong J)',doi:'10.1038/s41422-019-0213-0'},
-{year:'2018',journal:'Nature',category:'editing',title:'Ma et al. reply.',authors:'Ma H, Marti-Gutierrez N, Park SW, et al. (including Gong J)',doi:'10.1038/s41586-018-0381-y'},
-{year:'2017',journal:'Nature',category:'editing',title:'Correction of a pathogenic gene mutation in human embryos.',authors:'Ma H, Marti-Gutierrez N, Park SW, et al. (including Gong J)',doi:'10.1038/nature23305'},
-{year:'2017',journal:'G3',category:'other',title:'Dissecting Nucleosome Function with a Comprehensive Histone H2A and H2B Mutant Library.',authors:'Jiang S, Liu Y, Xu C, Wang Y, Gong J, et al.',doi:'10.1534/g3.117.300252'},
-{year:'2017',journal:'Science',category:'synthetic',title:'Engineering the ribosomal DNA in a megabase synthetic chromosome.',authors:'Zhang W, Zhao G, Luo Z, et al. (including Gong J)',doi:'10.1126/science.aaf3981'},
-{year:'2017',journal:'Science',category:'synthetic',title:'Deep functional analysis of synII, a 770-kilobase synthetic yeast chromosome.',authors:'Shen Y, Wang Y, Chen T, Gao F, Gong J, et al.',doi:'10.1126/science.aaf4791'},
-{year:'2016',journal:'Genome Research',category:'synthetic',title:'SCRaMbLE generates designed combinatorial stochastic diversity in synthetic chromosomes.',authors:'Shen Y, Stracquadanio G, Wang Y, et al. (including Gong J)',doi:'10.1101/gr.193433.115'},
-{year:'2015',journal:'Scientific Reports',category:'other',title:'Auxenochlorella protothecoides and Prototheca wickerhamii plastid genome sequences give insight into the origins of non-photosynthetic algae.',authors:'Yan D, Wang Y, Murakami T, Shen Y, Gong J, et al.',doi:'10.1038/srep14465'},
-{year:'Under revision',journal:'Cancer Cell',status:'revision',category:'cancer',title:'Multi-omic interrogation of soft tissue sarcoma reveals therapeutically relevant molecular subtypes.',authors:'Wang C, Clark NM, Jaehnig EJ, et al.; Clinical Proteomic Tumor Analysis Consortium (CPTAC).'},
-{year:'Under revision',journal:'Clinical Cancer Research',status:'revision',category:'cancer',title:'Comprehensive proteogenomic characterization of DNA damage response (DDR) across human tumors spanning ten cancer types.',authors:'Jaehnig E, Huynh AT, Kaparos E, et al.; Clinical Proteomic Tumor Analysis Consortium (CPTAC).'}
-];
-const projectIcons=[
-'<circle cx="20" cy="20" r="13"/><circle cx="20" cy="20" r="7"/><path d="M20 3v9m0 16v9M3 20h9m16 0h9M8 8l7 7m10 10 7 7M8 32l7-7m10-10 7-7"/>',
-'<path d="M4 30h32M7 27V16h6v11m5 0V7h6v20m5 0V12h6v15M8 8l6 3 8-7 10 3"/>',
-'<circle cx="8" cy="9" r="3"/><circle cx="30" cy="7" r="3"/><circle cx="21" cy="20" r="4"/><circle cx="7" cy="31" r="3"/><circle cx="32" cy="32" r="3"/><path d="m10 11 8 6m6 0 5-7M18 23l-9 6m15-6 6 7"/>',
-'<path d="M11 3c0 12 18 21 18 34M29 3c0 12-18 21-18 34M12 7h16M15 13h10M15 27h10M12 33h16M18 20h4"/>',
-'<path d="m7 5 26 30M33 5 7 35M10 10h19M15 16h9M15 24h9M10 30h19"/><circle cx="8" cy="5" r="3"/><circle cx="32" cy="5" r="3"/>',
-'<rect x="5" y="7" width="30" height="24" rx="2"/><path d="M5 13h30M11 19l4 3-4 3m8 1h8M14 36h12m-6-5v5"/>'
-];
-const projects=[
-{title:['Cancer proteogenomics','癌症蛋白基因组学'],description:['Led integrative analyses of CPTAC melanoma data, connecting genomic, proteomic, PTM, immune, and clinical features to tumor biology and immunogenicity.','主导 CPTAC 黑色素瘤数据的整合分析，连接基因组、蛋白质组、翻译后修饰、免疫与临床特征，探索肿瘤生物学及免疫原性。'],tags:['CPTAC','Melanoma','Multi-omics']},
-{title:['Precision oncology','精准肿瘤学'],description:['Contributed to the Turn-key Precision Oncology (TPO) platform, supporting reproducible tumor profiling across mutations, copy-number changes, gene expression, and fusions.','参与 Turn-key Precision Oncology（TPO）平台开发，支持体细胞突变、拷贝数变异、基因表达与融合等可复现的肿瘤特征分析。'],tags:['TPO','Tumor profiling','Workflows']},
-{title:['Machine learning for health','面向健康的机器学习'],description:['Built models for cfDNA-based critical illness classification, single-cell-based gestational age prediction, and HPV integration status prediction.','构建基于 cfDNA 的危重症分类模型、基于单细胞数据的孕周预测模型，以及 HPV 整合状态预测模型。'],tags:['cfDNA','Single-cell RNA-seq','HPV']},
-{title:['Synthetic genomics','合成基因组学'],description:['Contributed to Sc2.0 studies through synthetic chromosome validation and multi-omics analyses of genome design, fitness, and rearrangement.','参与 Sc2.0 合成酵母基因组研究，开展合成染色体验证与多组学分析，评估基因组设计、适应性及基因组重排。'],tags:['Sc2.0','SCRaMbLE','Genome design']},
-{title:['Genome editing analysis','基因编辑计算分析'],description:['Analyzed CRISPR/Cas9 off-target variants and SATI-mediated gene correction, including editing efficiency and large-deletion events.','分析 CRISPR/Cas9 潜在脱靶变异及 SATI 介导的基因校正，包括编辑效率与大片段缺失事件。'],tags:['CRISPR/Cas9','WES','SATI']},
-{title:['Research software & platforms','科研软件与平台'],description:['Designed RiSE for laboratory resources, built TMS for synthesis workflows, and contributed to Genovo for computer-aided genome design.','设计实验资源管理系统 RiSE，开发合成制造任务管理系统 TMS，并参与基因组计算机辅助设计平台 Genovo 的开发。'],tags:['RiSE','TMS','Genovo']}
-];
-const appointments=[
-{date:['2022.06 — Present','2022.06 — 至今'],title:['Graduate Research Assistant','研究助理'],org:['Michigan Center for Translational Pathology · Michigan Medicine','密歇根转化病理学中心 · Michigan Medicine'],detail:['Cancer proteogenomics, CPTAC melanoma analyses, and the TPO platform. University of Michigan.','在密歇根大学开展癌症蛋白基因组学研究、CPTAC 黑色素瘤分析及 TPO 平台开发。']},
-{date:['2021.01 — 2021.07','2021.01 — 2021.07'],title:['Associate Research Scientist','副研究员'],org:['BGI Research','华大生命科学研究院'],detail:['Machine learning for precision health, cfDNA classification, and single-cell data modeling.','开展精准健康机器学习研究，包括 cfDNA 分类与单细胞数据建模。']},
-{date:['2019.01 — 2020.12','2019.01 — 2020.12'],title:['Head of Technology Optimization Team','技术优化团队负责人'],org:['China National GeneBank','国家基因库'],detail:['Led a computational team supporting synthetic genomics, software development, and multi-omics workflows.','带领计算与技术优化团队，支持合成基因组学、软件开发与多组学研究工作流程。']},
-{date:['2013.07 — 2018.12','2013.07 — 2018.12'],title:['Bioinformatics Analyst → Associate Research Scientist','生物信息分析师 → 副研究员'],org:['BGI Research','华大生命科学研究院'],detail:['Progressed through analyst, assistant scientist, and associate scientist roles in synthetic genomics, genome editing, and comparative genomics.','先后担任分析师、助理研究员与副研究员，参与合成基因组学、基因编辑及比较基因组学研究。']}
-];
-const education=[
-{date:['2021.08 — 2026.08','2021.08 — 2026.08'],title:['Ph.D. in Bioinformatics','生物信息学博士'],org:['University of Michigan','密歇根大学']},
-{date:['2022.08 — 2025.12','2022.08 — 2025.12'],title:['M.S. in Computer Science','计算机科学硕士'],org:['Georgia Institute of Technology','佐治亚理工学院']},
-{date:['2021.08 — 2023.04','2021.08 — 2023.04'],title:['M.S. in Bioinformatics','生物信息学硕士'],org:['University of Michigan','密歇根大学']},
-{date:['2009.09 — 2013.07','2009.09 — 2013.07'],title:['B.Eng. in Bioengineering','生物工程学士'],org:['South China University of Technology','华南理工大学']}
-];
-const community=[
-{symbol:'↗',title:['Mentorship','学生指导'],detail:['Mentored five BGI Innovation Class students during 1.5-year research training in bioinformatics, synthetic genomics, and scientific communication.','在为期一年半的科研训练中，指导 5 位华大创新班学生开展生物信息学、合成基因组学研究与学术交流。']},
-{symbol:'✳',title:['Editorial & peer review service','编辑与同行评审'],detail:['Guest Editor, PNAS Nexus. Reviewer for Briefings in Bioinformatics, eLife, JCO Precision Oncology, iScience, PLOS Genetics, Heliyon, and PLOS ONE.','担任 PNAS Nexus 客座编辑；为 Briefings in Bioinformatics、eLife、JCO Precision Oncology、iScience、PLOS Genetics、Heliyon 和 PLOS ONE 审稿。']},
-{symbol:'⌘',title:['Tools & intellectual contributions','软件与知识成果'],detail:['Four software copyrights, one granted patent, and a contribution to the national standard for quality evaluation of synthesized genes (GB/T 37873-2019).','拥有 4 项软件著作权、1 项授权专利，并参与《合成基因质量评价通则》国家标准（GB/T 37873-2019）的制定。']},
-{symbol:'◇',title:['Honors & scientific exchange','荣誉与学术交流'],detail:['PIBS, Tucker Fund, and Bernard Maas fellowships at Michigan; Sc2.0 poster award; presentations including AACR 2025 and scientific investigator meetings.','获得密歇根大学 PIBS、Tucker Fund 和 Bernard Maas 资助及 Sc2.0 海报奖；参与 AACR 2025 及科学研究者会议等学术交流。']}
-];
-
-let language='en',activeFilter='all',expanded=false;
-try{language=localStorage.getItem('jg-language')==='zh'?'zh':'en'}catch{}
-const $=selector=>document.querySelector(selector);
-const escapeHtml=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const localize=value=>Array.isArray(value)?value[language==='zh'?1:0]:value;
-
-function renderProjects(){
-  $('#research-grid').innerHTML=projects.map((p,i)=>`<article class="research-card"><div class="research-card-top"><span class="research-number">0${i+1}</span><svg class="research-icon" viewBox="0 0 40 40" aria-hidden="true">${projectIcons[i]}</svg></div><h3>${escapeHtml(localize(p.title))}</h3><p>${escapeHtml(localize(p.description))}</p><div class="project-tags">${p.tags.map(t=>`<span>${escapeHtml(t)}</span>`).join('')}</div></article>`).join('');
+const zh=document.body.dataset.language==='zh';
+const tr=(en,cn)=>zh?cn:en;
+const $=s=>document.querySelector(s);
+const papers=[...document.querySelectorAll('[data-paper]')];
+let filter='all',expanded=false;
+function renderPapers(){
+ const query=$('#publication-search').value.trim().toLowerCase();
+ const matches=p=>(filter==='all'||p.dataset.category===filter)&&(!query||p.dataset.search.includes(query));
+ const published=papers.filter(p=>p.dataset.draft==='false'&&matches(p)),drafts=papers.filter(p=>p.dataset.draft==='true'&&matches(p));
+ const unrestricted=filter==='all'&&!query,limit=unrestricted&&!expanded?6:Infinity;
+ papers.forEach(p=>p.hidden=true);published.forEach((p,i)=>p.hidden=i>=limit);drafts.forEach(p=>p.hidden=false);
+ $('#pub-count').textContent=tr(`${Math.min(published.length,limit)} of ${published.length} publications${drafts.length?` · ${drafts.length} manuscripts under revision`:''}`,`显示 ${Math.min(published.length,limit)} / ${published.length} 篇论文${drafts.length?` · ${drafts.length} 篇修回稿`:''}`);
+ $('#no-results').hidden=published.length+drafts.length>0;$('#manuscripts').hidden=drafts.length===0;
+ $('#show-more').hidden=!unrestricted||published.length<=6;$('#show-more').setAttribute('aria-expanded',String(expanded));
+ $('#show-more').textContent=expanded?tr('Show selected publications ↑','收起为代表论文 ↑'):tr('View all 14 publications ↓','查看全部 14 篇论文 ↓');
+ document.querySelectorAll('[data-filter]').forEach(b=>{b.classList.toggle('active',b.dataset.filter===filter);b.setAttribute('aria-pressed',String(b.dataset.filter===filter))});
 }
-function renderTimeline(items,target){$(target).innerHTML=items.map(item=>`<article class="timeline-item"><div class="timeline-date">${escapeHtml(localize(item.date))}</div><h4>${escapeHtml(localize(item.title))}</h4><div class="timeline-org">${escapeHtml(localize(item.org))}</div>${item.detail?`<p class="timeline-detail">${escapeHtml(localize(item.detail))}</p>`:''}</article>`).join('')}
-function renderCommunity(){$('#community-items').innerHTML=community.map(item=>`<article class="community-item"><span class="item-symbol" aria-hidden="true">${item.symbol}</span><div><h3>${escapeHtml(localize(item.title))}</h3><p>${escapeHtml(localize(item.detail))}</p></div></article>`).join('')}
-function renderFilters(){const t=translations[language];$('#filters').innerHTML=Object.entries(t.filters).map(([key,label])=>`<button type="button" class="filter-button${key===activeFilter?' active':''}" data-filter="${key}" aria-pressed="${key===activeFilter}">${label}</button>`).join('')}
-function renderPublications(){
-  const t=translations[language],query=$('#publication-search').value.trim().toLowerCase();
-  const filtered=publications.filter(p=>(activeFilter==='all'||p.category===activeFilter)&&(!query||`${p.title} ${p.authors} ${p.journal} ${p.year} ${p.doi||''} ${t.filters[p.category]} ${p.status?t[p.status==='press'?'press':'revision']:''}`.toLowerCase().includes(query)));
-  const filteredMode=activeFilter!=='all'||Boolean(query),visible=filteredMode||expanded?filtered:filtered.slice(0,6);
-  $('#publication-list').innerHTML=visible.map(p=>{
-    const link=p.doi?`https://doi.org/${p.doi}`:null,title=escapeHtml(p.title),authors=escapeHtml(p.authors).replace(/Gong J/g,'<strong>Gong J</strong>');
-    const status=p.status?`<span class="pub-status ${p.status}">${t[p.status==='press'?'press':'revision']}</span>`:'';
-    return `<article class="publication-item"><div class="pub-year${p.status?' press':''}">${p.status?t[p.status==='press'?'press':'revision']:p.year}</div><div><div class="pub-meta"><span>${escapeHtml(p.journal)}</span>${p.first?`<span class="pub-status">${t.firstAuthor}</span>`:''}${status}</div><h3 class="pub-title">${link?`<a href="${link}" target="_blank" rel="noopener noreferrer">${title}</a>`:title}</h3><p class="pub-authors">${authors}</p></div>${link?`<a class="pub-arrow" href="${link}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml((language==='zh'?'阅读论文：':'Read article: ')+p.title)}">↗</a>`:'<span></span>'}</article>`;
-  }).join('');
-  $('#pub-count').textContent=t.results(visible.length,filtered.length);
-  $('#no-results').hidden=visible.length!==0;
-  $('#show-more').hidden=filteredMode||filtered.length<=6;
-  $('#show-more').setAttribute('aria-expanded',String(expanded));
-  $('#show-more span:first-child').textContent=expanded?t.showLess:t.showAll;
-}
-function setLanguage(next){
-  language=next;const t=translations[language];document.documentElement.lang=language==='zh'?'zh-CN':'en';
-  document.querySelectorAll('[data-i18n]').forEach(el=>{const value=t[el.dataset.i18n];if(typeof value==='string')el.innerHTML=value});
-  document.querySelectorAll('[data-placeholder]').forEach(el=>el.placeholder=t[el.dataset.placeholder]);
-  document.querySelectorAll('[data-alt]').forEach(el=>el.alt=t[el.dataset.alt]);
-  $('#language-toggle').innerHTML=language==='en'?'中文 <span aria-hidden="true">↗</span>':'EN <span aria-hidden="true">↗</span>';
-  $('#language-toggle').setAttribute('aria-label',language==='en'?'Switch to Chinese':'切换为英文');
-  $('.menu-toggle').setAttribute('aria-label',language==='en'?'Toggle navigation':'切换导航菜单');
-  document.title=language==='en'?'Jianhui (Duncan) Gong | Cancer Proteogenomics & Bioinformatics':'龚剑辉 Jianhui (Duncan) Gong | 癌症蛋白基因组学与生物信息学';
-  renderProjects();renderTimeline(appointments,'#appointments');renderTimeline(education,'#education');renderCommunity();renderFilters();renderPublications();
-  try{localStorage.setItem('jg-language',language)}catch{}
-}
-$('#language-toggle').addEventListener('click',()=>setLanguage(language==='en'?'zh':'en'));
-$('#filters').addEventListener('click',event=>{const button=event.target.closest('[data-filter]');if(!button)return;activeFilter=button.dataset.filter;renderFilters();renderPublications()});
-$('#publication-search').addEventListener('input',renderPublications);
-$('#show-more').addEventListener('click',()=>{expanded=!expanded;renderPublications();if(!expanded)$('#publications').scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'})});
-const menu=$('.menu-toggle'),mobileNav=$('#mobile-nav');
-function closeMenu(){menu.setAttribute('aria-expanded','false');mobileNav.hidden=true}
-menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')==='true';menu.setAttribute('aria-expanded',String(!open));mobileNav.hidden=open});
-mobileNav.addEventListener('click',event=>{if(event.target.closest('a'))closeMenu()});
-document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!mobileNav.hidden){closeMenu();menu.focus()}});
+$('#pub-controls').hidden=false;
+$('#filters').addEventListener('click',e=>{const b=e.target.closest('[data-filter]');if(b){filter=b.dataset.filter;renderPapers()}});
+$('#publication-search').addEventListener('input',renderPapers);
+$('#show-more').addEventListener('click',()=>{expanded=!expanded;renderPapers();if(!expanded)$('#publications').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'})});
+document.querySelectorAll('[data-reveal-paper]').forEach(a=>a.addEventListener('click',()=>{filter='all';expanded=true;$('#publication-search').value='';renderPapers()}));
+const menu=$('.menu-toggle'),mobile=$('#mobile-nav');
+function closeMenu(){menu.setAttribute('aria-expanded','false');mobile.hidden=true}
+menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')==='true';menu.setAttribute('aria-expanded',String(!open));mobile.hidden=open});
+mobile.addEventListener('click',e=>{if(e.target.closest('a'))closeMenu()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!mobile.hidden){closeMenu();menu.focus()}});
 let toastTimer;
-function showToast(message){$('#toast').textContent=message;$('#toast').classList.add('visible');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.remove('visible'),3500)}
-$('#copy-email').addEventListener('click',async()=>{try{await navigator.clipboard.writeText('jhgong@umich.edu');showToast(translations[language].copied)}catch{showToast(translations[language].copyFallback)}});
-if('IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){document.querySelectorAll('.desktop-nav a').forEach(a=>a.classList.toggle('active',a.getAttribute('href')===`#${entry.target.id}`))}})},{rootMargin:'-15% 0px -65% 0px'});document.querySelectorAll('#research,#publications,#experience,#contact').forEach(section=>observer.observe(section))}
-setLanguage(language);
+$('#copy-email').addEventListener('click',async()=>{let message;try{await navigator.clipboard.writeText('jhgong@umich.edu');message=tr('Email address copied.','邮箱地址已复制。')}catch{message='jhgong@umich.edu'}$('#toast').textContent=message;$('#toast').classList.add('visible');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.remove('visible'),3500)});
+const languageLink=$('#language-switch');languageLink.addEventListener('click',()=>languageLink.hash=location.hash);
+if('IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting)document.querySelectorAll('.desktop-nav a').forEach(a=>a.classList.toggle('active',a.hash===`#${entry.target.id}`))}),{rootMargin:'-15% 0px -65% 0px'});document.querySelectorAll('#research,#publications,#experience,#contact').forEach(s=>observer.observe(s))}
+function revealFragment(){const target=papers.find(p=>'#'+p.id===location.hash);if(!target)return false;filter='all';expanded=true;$('#publication-search').value='';renderPapers();return true}
+window.addEventListener('hashchange',()=>{const target=papers.find(p=>'#'+p.id===location.hash),wasHidden=target?.hidden;if(revealFragment()&&wasHidden)target.scrollIntoView()});
+if(!revealFragment())renderPapers();

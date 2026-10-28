@@ -2,7 +2,7 @@
 
 Live URL: https://duncanjunegong.github.io/
 
-The website is plain HTML, CSS, and JavaScript and is published with GitHub Pages. There is no build step or third-party runtime dependency.
+The website is plain HTML, CSS, and JavaScript and is published with GitHub Pages. The HTML is pre-generated with `node build.mjs` before committing; GitHub Pages serves the generated files directly. There is no third-party runtime dependency. See `MAINTENANCE.md` for bilingual content and publication updates.
 
 ## Publishing
 
@@ -10,8 +10,9 @@ GitHub Pages should publish the root (`/`) of the `main` branch. The `.nojekyll`
 
 ## Content and files
 
-- `index.html`: page structure, default English text, and search metadata.
-- `app.js`: English and Chinese content, publications, filtering, and language switching.
+- `index.html` and `zh/index.html`: pre-generated English and Chinese content and search metadata.
+- `content.json` and `build.mjs`: shared content and the dependency-free page generator.
+- `app.js`: publication search and filtering, mobile navigation, and email copying.
 - `style.css`: desktop, mobile, and print styles.
 - `assets/`: molecular illustration, icon, and downloadable CV files.
 - `robots.txt` and `sitemap.xml`: search engine discovery configuration.
